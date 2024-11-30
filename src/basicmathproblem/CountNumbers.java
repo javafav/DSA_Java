@@ -1,6 +1,5 @@
-package src;
+package src.basicmathproblem;
 
-import java.util.EnumSet;
 import java.util.Scanner;
 
 public class CountNumbers {
