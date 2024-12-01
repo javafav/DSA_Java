@@ -3,7 +3,7 @@ package src.basicmathproblem;
 public class GCDOfANumberBA {
     public static void main(String[] args) {
         int n1 = 20, n2 = 40;
-
+//Here in class name BA mean Better  Approach
         // Find the GCD of n1 and n2
         //Brute Force Approach
         int gcd = gcdFinder(n1, n2);
