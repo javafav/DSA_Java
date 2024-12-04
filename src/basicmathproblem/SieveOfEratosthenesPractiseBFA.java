@@ -1,5 +1,8 @@
 package src.basicmathproblem;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SieveOfEratosthenesPractiseBFA {
 
     //Here in class name * BFA * mean Brute Force Approach
@@ -27,6 +30,26 @@ public class SieveOfEratosthenesPractiseBFA {
             if (primeNumbers[i] == 0) {
                 System.out.println(i + " is prime.");
             }
+        }
+    }
+
+    public static class PrintAlDivisors {
+        public static void main(String[] args) {
+    allDivisors(36);
+        }
+        static List<Integer> allDivisors(int number){
+            List<Integer> allDivisor = new ArrayList<>();
+            for(int i = 1; i * i <= number ; i++){ // replacement of  Math.sqrt(number)
+                if(number % i == 0){
+                    allDivisor.add(i);
+                    if((number / i) != i ){
+                        allDivisor.add( number / i);
+                    }
+                }
+            }
+            allDivisor.sort(Integer::compareTo);
+            System.out.println(allDivisor);
+            return allDivisor;
         }
     }
 }

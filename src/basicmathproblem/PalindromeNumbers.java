@@ -1,4 +1,4 @@
-package src;
+package src.basicmathproblem;
 
 public class PalindromeNumbers {
     public static void main(String[] args) {

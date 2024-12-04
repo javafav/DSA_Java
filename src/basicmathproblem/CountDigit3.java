@@ -1,4 +1,4 @@
-package src;
+package src.basicmathproblem;
 
 public class CountDigit3 {
     public static void main(String[] args) {
