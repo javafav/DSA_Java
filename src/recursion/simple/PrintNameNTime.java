@@ -2,7 +2,7 @@ package src.recursion.simple;
 
 import java.util.Scanner;
 
-public class PrintNameFiveTime {
+public class PrintNameNTime {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
